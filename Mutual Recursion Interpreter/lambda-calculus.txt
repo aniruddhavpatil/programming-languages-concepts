@@ -1,0 +1,44 @@
+1
+(lambda (y) (y (lambda (z) u)))
+
+
+2
+u
+
+3
+a
+
+
+4
+(lambda (i) (y i))
+i
+
+5
+(z (lambda (x) x))
+
+6
+((((lambda (x y z) (x y z)) (lambda (x) (x x))) (lambda (x) x)) x)
+
+((lambda (x y z) (x y z)) a)
+(lambda (y) (lambda (z) (a y z)))
+(lambda (y) (lambda (z) (y y z)))
+(lambda (y z) (y y z))
+(((lambda (y) (lambda (z) (y y z))) (lambda (x) x)) x)
+((lambda (z) (z)) x)
+x
+
+7
+((lambda (x) ((lambda (y) (y x)) (lambda (z) (x z)))) (lambda (y) (y y)))
+((lambda (x) (x x)) (lambda (y) (y y)))
+{Infinite Loop}
+
+8
+(((lambda (x) (lambda (y) (+ y ((lambda (z) (* x z)) 3)))) 7) 5)
+(((lambda (x) (lambda (y) (+ y (* x 3)))) 7) 5)
+26
+
+9
+{Infinite Loop}
+
+10
+y
